@@ -21,8 +21,8 @@ def predecirPneumonia():
     result = predecir.predecirneumonia(ruta)
     return result
 
-@app.route("/", methods=["GET"])
-def main():
+@app.route("/")
+def hello_world():
     return '<h1> API THESIS <h1>'
 
 if __name__=="__main__":
