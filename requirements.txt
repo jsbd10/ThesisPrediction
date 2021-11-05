@@ -15,13 +15,11 @@ grpcio==1.41.1
 h5py==3.5.0
 idna==3.3
 importlib-metadata==4.8.1
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
 Jinja2==2.11.2
 keras==2.7.0
 Keras-Preprocessing==1.1.2
 libclang==12.0.0
 Markdown==3.3.4
-MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621528142364/work
 numpy==1.21.3
 oauthlib==3.1.1
 opt-einsum==3.3.0
