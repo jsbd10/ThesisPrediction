@@ -7,18 +7,18 @@ app = Flask(__name__)
 @app.route("/predecirneumotorax", methods=["POST"])
 def predecirPneumothorax():
     imagen = request.args.get("imagen")
-    ruta = "./img/Neumotorax/imagen.jpg"
-    urllib.request.urlretrieve(imagen,ruta)
-    result = predecir.predecirPneumothorax(ruta)
+    ruta2 = "./img/Neumotorax/imagen.jpg"
+    urllib.request.urlretrieve(imagen,ruta2)
+    result = predecir.predecirPneumothorax(ruta2)
     return result
 
 
 @app.route("/predecirpneumonia", methods=["POST"])
 def predecirPneumonia():
     imagen = request.args.get("imagen")
-    ruta = "./img/Neumonia/imagen.jpg"
-    urllib.request.urlretrieve(imagen,ruta)
-    result = predecir.predecirneumonia(ruta)
+    ruta2 = "./img/Neumonia/imagen.jpg"
+    urllib.request.urlretrieve(imagen,ruta2)
+    result = predecir.predecirneumonia(ruta2)
     return result
 
 @app.route("/")
