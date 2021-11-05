@@ -22,7 +22,7 @@ def predecirPneumonia():
     return result
 
 @app.route("/", methods=["GET"])
-def predecirPneumonia():
+def main():
     return '<h1> API THESIS <h1>'
 
 if __name__=="__main__":
