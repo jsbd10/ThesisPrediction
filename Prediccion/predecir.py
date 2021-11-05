@@ -7,7 +7,7 @@ import tensorflow as tf
 import numpy as np
 
 def predecirPneumothorax(url):
-    model = load_model("/home/santiago/Documentos/Proyecto_Chatboot/rest-api/modelNeumotorax.h5",compile=False)
+    model = load_model("https://drive.google.com/file/d/1-3c-RJ_RNfW8KuDn8KdkfIYR40XpoMsb/view?usp=sharing",compile=False)
     img = image.load_img(url, target_size=(224, 224))
     x = image.img_to_array(img)
     x = np.expand_dims(x, axis=0)
