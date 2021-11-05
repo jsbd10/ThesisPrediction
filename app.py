@@ -23,7 +23,7 @@ def predecirPneumonia():
 
 @app.route("/")
 def hello():
-    return '<h1> API THESIS <h1>'
+    return '<h1> API THESIS aa <h1>'
 
 if __name__=="__main__":
   app.run() 
