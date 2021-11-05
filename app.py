@@ -26,4 +26,4 @@ def main():
     return '<h1> API THESIS <h1>'
 
 if __name__=="__main__":
-  app.run(port = '3006') 
+  app.run() 
